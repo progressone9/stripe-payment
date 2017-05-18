@@ -19,6 +19,9 @@ gem 'pg', group: :production
 # add bootstrap
 gem 'bootstrap-sass'
 
+gem 'dotenv-rails', :groups => [:development, :test]
+#stripe
+gem 'stripe'
 # 12_factor for Heroku
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
