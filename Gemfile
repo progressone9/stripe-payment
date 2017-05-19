@@ -16,6 +16,11 @@ gem 'sqlite3', group: [:development, :test]
 # Postgres for production database
 gem 'pg', group: :production
 
+#admin
+gem 'activeadmin'
+gem 'inherited_resources'
+gem 'devise'
+
 # add bootstrap
 gem 'bootstrap-sass'
 
