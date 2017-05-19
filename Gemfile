@@ -19,6 +19,8 @@ gem 'pg', group: :production
 # add bootstrap
 gem 'bootstrap-sass'
 
+gem "letter_opener", group: :development
+
 gem 'dotenv-rails', :groups => [:development, :test]
 #stripe
 gem 'stripe'
