@@ -3,6 +3,7 @@ class CreateProducts < ActiveRecord::Migration[5.0]
     create_table :products do |t|
       t.string :title
       t.string :subtitle
+      t.string :details
       t.string :image_name
       t.string :download_url
       t.string :sku
